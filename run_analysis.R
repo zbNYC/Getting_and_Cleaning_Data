@@ -59,4 +59,4 @@ library(reshape2)
  	tidy_data <- dcast(wide_data, Subject + Activity ~ variable, mean) 
  
  # write the tidy_data into the file 
- write.csv(tidy_data, "tidy_data.csv", row.names=FALSE) 
+ write.table(tidy_data, "tidy_data.txt", row.names=FALSE)
