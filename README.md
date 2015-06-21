@@ -27,7 +27,7 @@ The R script does the following:
     - features.txt
     - features_info.txt
 * The script run_analysis.R needs to be in the working directory
-* Run source("run_analysis.R"). The result is the creation of the file tidy_data.csv in the R working directory.
+* Run source("run_analysis.R"). The result is the creation of the file tidy_data.txt in the R working directory.
 
 Please note, the script run_analysis.R is using reshape2 package (http://cran.r-project.org/web/packages/reshape2/index.html) 
 
